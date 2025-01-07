@@ -2,7 +2,8 @@ const {test, expect} = require("@playwright/test")
 
 
 test("First Test", async({page})=>{
- await  page.goto("https://playwright.dev/");
+ //await  page.goto("https://playwright.dev/");
+ await  page.goto("https://www.coingecko.com/en/categories/meme-token");
 
  await expect (page).toHaveTitle(/Playwright/)
 
